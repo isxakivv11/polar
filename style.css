@@ -1,45 +1,50 @@
+@font-face {
+    font-family: 'FredokaOne';
+    src: url('assets/fonts/FredokaOne-Regular.ttf');
+}
 
-
-.ul {
-    margin-top: -50px;
-    display: flex;
+.menu {
+    display: inline-flex;
     align-items: center;
-    margin-left: 700px;
-    margin-right: 300px;
     gap: 40px;
     list-style: none;
 }
 
-.buynow {
-   margin-left: 1350px;
-   margin-top: -50px; 
+header {
+    background: #F2CEDA;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.imgpolar {
+/* .imgpolar {
     margin-left: 200px;
-}
+} */
 
 .somefood {
     margin-top: 40px;
 }
 
-.sfs {
+/* .sfs {
     margin-top: 250px;  
     margin-left: 250px; 
     background-color: ...;   
-}
+} */
 
-.icecream {
+/* .icecream {
     margin-left: 650px;
     margin-top: -400px;
-}
+} */
 
 .iccrm {
     width: 500px;
 }
 
 .qymq {
-    width: 600px;
+    width: 100%;
 }
 
 .body {
@@ -73,3 +78,32 @@
 /* .pink {
 
 } */
+
+.icecream {
+    position: relative;
+    float: right;
+}
+
+.qymq {
+    position: absolute;
+    left: -70px;
+    top: 140px;
+}
+
+.banner {
+    background: #F2CEDA;
+    padding: 80px 0;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+}
+
+.text-pink {
+    color: #D23166;
+}
+
+.banner-text h1 {
+    font-family: 'FredokaOne';
+}
