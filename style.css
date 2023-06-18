@@ -8,6 +8,7 @@
     align-items: center;
     gap: 40px;
     list-style: none;
+    margin: 0;
 }
 
 header {
@@ -106,4 +107,28 @@ header {
 
 .banner-text h1 {
     font-family: 'FredokaOne';
+}
+
+
+/* Работает с ОС */
+/* @media (prefers-color-scheme: dark) {
+    header {
+        background: red;
+    }
+} */
+
+
+.dark header {
+    background: black;
+    color: #fff;
+}
+
+.dark .theme-btn {
+    background: rgb(109, 107, 107);
+    color: #fff;
+}
+
+.dark .theme-btn:hover {
+    background: red;
+    color: #fff;
 }
