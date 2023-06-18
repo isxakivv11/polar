@@ -1,0 +1,75 @@
+
+
+.ul {
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    margin-right: 300px;
+    gap: 40px;
+    list-style: none;
+}
+
+.buynow {
+   margin-left: 1350px;
+   margin-top: -50px; 
+}
+
+.imgpolar {
+    margin-left: 200px;
+}
+
+.somefood {
+    margin-top: 40px;
+}
+
+.sfs {
+    margin-top: 250px;  
+    margin-left: 250px; 
+    background-color: ...;   
+}
+
+.icecream {
+    margin-left: 650px;
+    margin-top: -400px;
+}
+
+.iccrm {
+    width: 500px;
+}
+
+.qymq {
+    width: 600px;
+}
+
+.body {
+    background-color: #F2CEDA;
+}
+
+.pushtidiv {
+    background-color: #F2CEDA;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.car {
+    width: 50px;
+}
+
+.pushtidiv {
+    background-color: #F2CEDA;
+}
+
+.ikkisekwn {
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+/* .pink {
+
+} */
